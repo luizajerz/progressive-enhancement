@@ -1,0 +1,109 @@
+
+.mal,.bien {
+    text-transform: uppercase;
+}
+
+.mal {
+    color:red;
+}
+
+.bien {
+    color: green;
+}
+
+p {
+    font-family:serif;
+    line-height:90% ;
+    font-size: 2em ;
+    color: brown;
+}
+a {
+    color: crimson;
+
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {color: red;}
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    background-color: blue;
+}
+
+body{
+    max-width: 90%;
+    margin: 0% 5%;
+    /*background-image: linear-gradient(grey,aquamarine);*/
+    background-image: url(https://www.infopresse.com/Uploads/_cropped/bombardierr_1481744992_1491414991.jpg);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+p {
+
+}
+
+blockquote {
+    width: 50%;
+    margin: 0% 25%;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px solid burlywood;
+    color: red;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+
+}
+
+.fermier {
+    border-left: 25px solid lightcoral;
+
+}
+.villageois {
+    border-left: 25px solid chocolate;
+}
+h1 {background-color: yellow;
+}
+
+blockquote[class] {
+    background-color: yellow;
+    
+}
+
+th {
+    background-color: #4CAF50;
+}
+tr {
+    background-color: white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+li:nth-child(1) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/turing-2/master/Parcours/01-La-prairie/html-css/progressive-enhancement/bien.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+
+li:nth-child(3) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/turing-2/master/Parcours/01-La-prairie/html-css/progressive-enhancement/chat.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+
+p:nth-of-type(1) {
+    font-weight: bold;
+}
